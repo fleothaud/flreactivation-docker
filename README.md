@@ -12,14 +12,24 @@ FLReactivation-Docker est une solution containerisée de FLReactivation, intégr
 ``` bash
 apt update -y
 apt full-upgrade -y
-apt install docker docker-compose -y
+apt install docker docker-compose micro -y
 
 git clone https://github.com/fleothaud/flreactivation-docker.git
 
 cd flreactivation-docker
+```
+> [!TIP]
+>personnaliser les mots de passe d'accés mysql (base de données) avec la commande `micro .env`
+
+```
+MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
+MYSQL_DB_NAME=flreactivation
+MYSQL_DB_USER=fladmin
+MYSQL_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
+```
 
 docker-compose up -d
-```
+
 
 Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
 
@@ -28,7 +38,7 @@ Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serv
 ```
 apt update -y
 apt full-upgrade -y
-apt install docker docker-compose -y
+apt install docker docker-compose micro -y
 
 git clone https://github.com/fleothaud/flreactivation-docker.git
 
