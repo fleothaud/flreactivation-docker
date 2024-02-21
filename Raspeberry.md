@@ -1,12 +1,13 @@
 
-#Installation Raspeberry Pi
+# Installation Raspeberry Pi
 
-Matériel : 
+**Matériel :**
 - Raspeberry PI4B
-- carte SD 8Go
+- carte microSD 8Go
 
 ## Raspberry Pi Imager
 
+Depuis votre pc introduire la carte microSD dans un lecteur approprié.
 
 - [Télécharger Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 
@@ -26,5 +27,6 @@ Suivez les instructions d'installation fournies par l'outil. Voici quelques capt
 >[!IMPORTANT]  
 >**Activer SSH :** À la fin de l'installation, créer un fichier vide nommé `ssh` à la racine de la carte SD.
 
+## Premier démarrage
 
-Insérez la carte SD dans le Raspberry Pi connecté au réseau et démarrez-le.
+Insérez la carte SD dans le Raspberry Pi connecté au réseau et branchez-le.
