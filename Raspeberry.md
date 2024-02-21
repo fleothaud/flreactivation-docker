@@ -5,13 +5,11 @@
 - Raspeberry PI4B
 - carte microSD 8Go
 
-## Raspberry Pi Imager
+## Installation OS pour Raspeberry PI4B
 
 - Depuis votre PC introduire la carte microSD dans un lecteur approprié.
 
-- [Télécharger Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-
-- Suivez les instructions d'installation fournies par l'outil.
+- [Télécharger Raspberry Pi Imager](https://www.raspberrypi.com/software/) et suivre les instructions d'installation fournies par l'outil.
 
   Voici quelques captures d'écran pour vous guider dans le processus :
 
