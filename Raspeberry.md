@@ -18,6 +18,8 @@
 ![Étape 2](https://github.com/fleothaud/flreactivation/assets/16253157/403e2b73-c5c4-4acf-ab08-e8966531fa2d)
 
 ![Étape 3](https://github.com/fleothaud/flreactivation/assets/16253157/448d9662-84c4-4012-b2d9-7ae1c2424434)
+>[!IMPORTANT]  
+>Conserver en sécurité les informations d'authentification saisies, elle permettront ensuite d'acceder au raspeberry PI.
 
 ![Étape 4](https://github.com/fleothaud/flreactivation/assets/16253157/e0f3e082-a477-4e2e-b6de-99cb6dc777b7)
 
