@@ -5,6 +5,13 @@ FLRéactivation est une application basée sur un serveur PHP et MySQL, pouvant 
 ## Installation docker Engine
 
 ### Raspberry Pi (installation recommandée)
+ouvrir une fenêtre "terminal de commande" et éxecuter `ssh flreactivation` ou `ssh adresse_ip_serveur`
+
+utiliser les informations d'authentification configurées à l'installation pour vous connecter au serveur Raspeberry
+
+Executer les commandes suivantes depuis le terminal : 
+
+``` bash
 apt update -y
 apt full-upgrade -y
 apt install docker docker-compose -y
@@ -16,6 +23,7 @@ cd flreactivation-docker
 docker-compose up -d
 
 Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
+```
 
 ### Linux
 
