@@ -7,7 +7,7 @@
 
 ## Raspberry Pi Imager
 
-- Depuis votre pc introduire la carte microSD dans un lecteur approprié.
+- Depuis votre PC introduire la carte microSD dans un lecteur approprié.
 
 - [Télécharger Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 
