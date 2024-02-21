@@ -1,11 +1,9 @@
 # FLRéactivation
 
-FLRéactivation est une application basée sur un serveur PHP et MySQL, pouvant être facilement déployée sur différentes plateformes.
+FLRéactivation-docker est une solution containerisée de flreactivation, intégrant directement PHP et MySQL et phpmyadmin. Conçue pour une déploiabilité aisée sur diverses plateformes grâce à Docker, elle permet une mise en œuvre rapide de flreactivation.
 
-## Installation docker Engine
-
-### Raspberry Pi (installation recommandée)
-ouvrir une fenêtre "terminal de commande" et éxecuter `ssh flreactivation` ou `ssh adresse_ip_serveur`
+## Raspberry Pi ([installation recommandée](Raspeberry.md))
+ouvrir une fenêtre de commande et éxecuter `ssh flreactivation` ou `ssh adresse_ip_serveur`
 
 utiliser les informations d'authentification configurées à l'installation pour vous connecter au serveur Raspeberry
 
@@ -21,11 +19,10 @@ git clone https://github.com/fleothaud/flreactivation-docker.git
 cd flreactivation-docker
 
 docker-compose up -d
-
-Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
 ```
+Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
 
-### Linux
+## Linux
 
 apt update -y
 apt full-upgrade -y
@@ -37,18 +34,20 @@ cd flreactivation-docker
 
 docker-compose up -d
 
-Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
+Rendez-vous à l'adresse :  http://adresse_ip_serveur
 
 ### windows / Mac
-installer docker desktop : https://www.docker.com/products/docker-desktop/
+1. Installer docker desktop : https://www.docker.com/products/docker-desktop/
 
-ouvrir une fenetre de commande dans un repertoire qui contiendra l'application
+2. Ouvrir une fenetre de commande dans un repertoire qui contiendra l'application
 
+```
 git clone https://github.com/fleothaud/flreactivation-docker.git
 
 cd flreactivation-docker
 
 docker-compose up -d
+```
 
 Rendez-vous à l'adresse : http://adresse_ip_serveur
 
