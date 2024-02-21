@@ -10,11 +10,11 @@ FLReactivation-Docker est une solution containerisée de FLReactivation, intégr
 2. Executer les commandes suivantes: 
 
 ``` bash
-apt update -y
-apt full-upgrade -y
-apt install docker docker-compose micro -y
+sudo apt update -y
+sudo apt full-upgrade -y
+sudo apt install docker docker-compose micro -y
 
-git clone https://github.com/fleothaud/flreactivation-docker.git
+sudo git clone https://github.com/fleothaud/flreactivation-docker.git
 
 cd flreactivation-docker
 ```
@@ -33,7 +33,7 @@ Une fois les modification faites `ctrl+Q` pour quitter et `y` pour sauvegarder l
 Démarrer ensuite le conteneur
 
 ```
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
