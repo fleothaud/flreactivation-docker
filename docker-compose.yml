@@ -40,17 +40,17 @@ services:
   #       - backend
 
   mariadb:
-  image: mariadb:latest
-  environment:
-    MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-    MYSQL_DATABASE: ${MYSQL_DB_NAME}
-    MYSQL_USER: ${MYSQL_DB_USER}
-    MYSQL_PASSWORD: ${MYSQL_DB_PASSWORD}
-  volumes:
-    - db_data:/var/lib/mysql
-    - ./mysql/initdb:/docker-entrypoint-initdb.d
-  networks:
-    - backend
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DB_NAME}
+      MYSQL_USER: ${MYSQL_DB_USER}
+      MYSQL_PASSWORD: ${MYSQL_DB_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./mysql/initdb:/docker-entrypoint-initdb.d
+    networks:
+      - backend
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
