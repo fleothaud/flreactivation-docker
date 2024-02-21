@@ -2,7 +2,7 @@
 
 FLReactivation-Docker est une solution containerisée de FLReactivation, intégrant directement PHP, MySQL et phpMyAdmin. Conçue pour une déploiabilité aisée sur diverses plateformes grâce à Docker, elle permet une mise en œuvre rapide de flreactivation.
 
-## Installation sur Raspberry Pi ([installation recommandée](Raspeberry.md))
+## Installation sur Raspberry Pi ([Installation recommandée](Raspeberry.md))
 1. Ouvrir une fenêtre de commande et éxecuter `ssh flreactivation` ou `ssh adresse_ip_serveur` pour vous connecter au Raspeberry PI
 > [!TIP]
 > Utiliser les informations d'authentification configurées à l'installation du Raspeberry PI
