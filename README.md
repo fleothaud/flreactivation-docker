@@ -38,6 +38,8 @@ docker-compose up -d
 
 Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
 
+[Configuration](configuration.md)
+
 ## Linux
 
 ```
@@ -66,8 +68,9 @@ Une fois les modification enregistrées démarrer le conteneur :
 docker-compose up -d
 ```
 
-
 Rendez-vous à l'adresse :  http://adresse_ip_serveur
+
+[Configuration](configuration.md)
 
 ### Windows / Mac
 1. Installer Git : https://git-scm.com/downloads
@@ -96,7 +99,9 @@ Une fois les modification enregistrées démarrer le conteneur :
 docker-compose up -d
 ```
 
-Rendez-vous à l'adresse : http://adresse_ip_serveur
+Rendez-vous à l'adresse : http://adresse_ip_serveur 
+
+[Configuration](configuration.md)
 
 
 

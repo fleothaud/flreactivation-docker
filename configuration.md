@@ -1,17 +1,17 @@
 #FLReactivation
 
-## Configuration des accès administrateurs
+## Configuration de l'accès administrateur
 
 Par défaut les identifiants administrateur sont :
 - login : admin
 - mot de passe : admin
 
-Pour modifier les identifiants des administrateurs acceder à phpMyAdmin : http://flreactivation.local:8080
+Pour modifier les identifiants administrateurs acceder à phpMyAdmin : http://flreactivation.local:8080
 
-login : user
-password: password
+login : fladmin
+password: fladminPassword
 
-Modifier le mot de passe
+Modifier le mot de passe de l'utilisateur **admin** enregistré dans la table **flr_users**
 
 ![2024-02-19_16h38_16](https://github.com/fleothaud/flreactivation/assets/16253157/3354ca42-9198-4279-bdaa-7e13a3f957dd)
 
