@@ -2,7 +2,15 @@
 
 FLRéactivation est une application basée sur un serveur PHP et MySQL, pouvant être facilement déployée sur différentes plateformes.
 
-## Installation du serveur PHP et MySQL
+## Installation docker Engine
+
+### Linux
+
+apt update -y
+apt full-upgrade -y
+apt install docker docker-compose -y
+
+git clone 
 
 
 ### Sur Linux (Raspberry Pi)
