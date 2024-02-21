@@ -1,10 +1,16 @@
-version: '3.1'
+version: '3.8'
 
 services:
   php:
     image: fleothaud/fl-php-pdo:7.4-fpm-alpine
     volumes:
       - ./www:/var/www/html
+    environment:
+      DB_HOST: mysql
+      DB_NAME: ${MYSQL_DB_NAME}
+      DB_USER: ${MYSQL_DB_USER}
+      DB_PASSWORD: ${MYSQL_DB_PASSWORD}
+
     networks:
       - backend
 
@@ -21,23 +27,23 @@ services:
       - php
 
   mysql:
-    image: mysql:5.7
-    environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: flreactivation
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
-    volumes:
-      - db_data:/var/lib/mysql
-      - ./mysql/initdb:/docker-entrypoint-initdb.d
-    networks:
-      - backend
+      image: mysql:5.7
+      environment:
+        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+        MYSQL_DATABASE: ${MYSQL_DB_NAME}  
+        MYSQL_USER: ${MYSQL_DB_USER}
+        MYSQL_PASSWORD: ${MYSQL_DB_PASSWORD}
+      volumes:
+        - db_data:/var/lib/mysql
+        - ./mysql/initdb:/docker-entrypoint-initdb.d
+      networks:
+        - backend
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     environment:
       PMA_HOST: mysql
-      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
     ports:
       - "8080:80"
     networks:
@@ -45,6 +51,7 @@ services:
 
 networks:
   backend:
+    driver: bridge
 
 volumes:
   db_data:

@@ -1,8 +1,8 @@
 <?php
-$DBHOST='mysql';
-$DBNAME='flreactivation';
-$DBUSER='user';
-$DBPSWD='password';
+$DBHOST= getenv('DB_HOST');
+$DBNAME=getenv('DB_NAME');
+$DBUSER=getenv('DB_USER');
+$DBPSWD=getenv('DB_PASSWORD');
 try
 {
     $bdd = new PDO('mysql:host='.$DBHOST.';dbname='.$DBNAME, $DBUSER, $DBPSWD);
