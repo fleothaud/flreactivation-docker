@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0049)http://localhost/FLreactivation/modele_scroll.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+ 
+<script type="text/javascript">
+                function Scroller() 
+                {
+                var phpScroll2 = '247.1999969482422'; 
+                window.scrollTo(0,phpScroll2);
+               
+                }
+                setTimeout("Scroller()", 50);
+</script>
+
+<script type="text/javascript">
+function foo(id)
+{
+    var position_scroll = document.documentElement.scrollTop;
+    // Stockage de la variable trs dans le champs caché portant le même nom
+    document.getElementById(id).value = position_scroll;
+}
+</script>
+ 
+<title>Nouvelle page 1</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        for(i=0;i++<25;document.write('<br/>')){}
+    </script><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+        <form method="POST">
+        <input type="hidden" name="id" value="id1">
+        <input type="hidden" name="trs" id="id1">
+    <input type="submit" onclick="foo(&#39;id1&#39;)" value="Envoyer">
+    </form>
+
+        <form method="POST">
+        <input type="hidden" name="id" value="id2">
+        <input type="hidden" name="trs" id="id2">
+    <input type="submit" onclick="foo(&#39;id2&#39;)" value="Envoyer">
+    </form>
+    <script type="text/javascript">
+        for(i=25;i++<50;document.write('<br/>')){}
+    </script><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+</body></html>

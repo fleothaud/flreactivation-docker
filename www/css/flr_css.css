@@ -1,0 +1,264 @@
+
+/* div conteneur des éléments de la page*/
+.conteneur{
+  /* On ajoute une marge sur les cotés de l’écran */
+padding-right: 10%;
+padding-left: 10%;
+
+/* Et on centre */
+margin-right: auto;
+margin-left: auto;
+}
+
+.conteneur_parametres{
+  padding-right: 0%;
+padding-left: 0%;
+
+/* Et on centre */
+margin-right: auto;
+margin-left: auto;
+
+
+}
+
+/* format des boutons images*/
+.btn_image{
+  width:50%;
+}
+
+
+/* affichage des tableaux */
+.tableau_affichage_cartes{
+  border: 1px solid rgb(167, 25, 25);
+  border-radius: 10px;
+  padding: 15px;
+  width:100%;
+}
+.tableau_affichage_cartes td{
+  border:none;
+}
+
+/*********POPUP*************************/
+* {
+  box-sizing: border-box;
+}
+/*body {
+  font-family: Roboto, Helvetica, sans-serif;
+}*/
+/* Fixer le bouton sur le côté gauche de la page */
+.open-btn {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* Stylez et fixez le bouton sur la page */
+  .open-button {
+    background-color: #1c87c9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+  }
+
+  /* Masquez la forme Popup */
+  .conteneur-form-popup {
+    display: none;
+    position: fixed;
+    text-align: center;
+    width: 20%;
+    left: 40%;
+    top: 30%;
+    background-color: white;
+   /* transform: translate(-45%, 5%);*/
+    border: 2px solid #666;
+    z-index: 9;
+  }
+  /* Styles pour le conteneur de form */
+  .form-popup {
+   /* max-width: 1500px;
+    min-width: 50px;*/
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+  }
+
+   /************ Style boutons de la form-popup */
+
+  /* bouton valider*/
+  .form-popup .btn {
+    background-color:green;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+  /* bouton annuler*/
+  .form-popup .cancel {
+    background-color: red;
+  }
+  /* Planez les effets pour les boutons */
+  .form-container .btn:hover,
+  .open-button:hover {
+    opacity: 1;
+  }
+  /*************** fin popup*********************************
+
+  /************  boutons dacceuil*********/
+  .div_interface
+  {
+      width: 50%;
+      float: left;
+      padding: 1%;
+      align-content: center;
+
+  }
+  .div_interface .bouton{
+    /*background-color: var(--main-bg-color);*/
+    color: white;
+    /*padding: 12px 20px;*/
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 100%;
+    height: 10em;
+    font-size: 20px;
+    
+    
+  }
+
+  .div_interface_parametres
+  {
+      width: 25%;
+      float: left;
+      padding: 1%;
+      align-content: center;
+  }
+  .div_interface_parametres .bouton{
+    /*background-color: var(--main-bg-color);*/
+    color: white;
+    /*padding: 12px 20px;*/
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.8;
+    width: 100%;
+    height: 10em;
+    font-size: 20px;
+    
+  }
+
+
+  /*   MENU ****/
+  .menu{
+      width: max-content;
+      display: flex;
+  
+  }
+
+  .menu input {
+      float: left;
+  }
+
+  .menu_context{
+    clear:both;
+  }
+
+  .div_scroll_data_parametre{
+    height: 100px;
+    overflow:scroll; 
+    border:#000000 1px solid;
+    padding-left:0.5em;
+  }
+
+  .tableau_parametres_data{
+    border: 1px solid rgb(167, 25, 25);
+    border-radius: 10px;
+    border-collapse: collapse;
+    width:100%;
+  }
+  .tableau_parametres_data td,th{
+    border: 1px solid rgb(167, 25, 25);
+    padding: 15px
+  }
+
+  .tableau_constantes_parametres{
+    border: 2px solid brown;
+    border-radius: 5px;
+    width: 30%;
+    border-collapse: separate;
+    border-spacing: 0;
+
+  }
+  .tableau_constantes_parametres th,td{
+    border: 1px solid green;
+    text-align: center;
+  
+   
+  }
+  .btn_parametres{
+    background-color:green;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+
+  }
+  .input_text_parametres{
+    width: 30%;
+
+  }
+  
+  .img_menu
+  {
+    width: 80px;
+
+  }
+
+  .btn_image
+  {
+    width: 30px;
+
+  }
+
+  .td_tab_btn_affichage
+  {
+    width: 30px;
+    border: none;
+  }
+
+  .td_tab_input_affichage
+  {
+    border: none;
+   text-align: left;
+  }
+
+  .td_tab_input_parametres
+  {
+     text-align: left;
+  }
+
+  .reponse{
+    background-color:rgb(220, 245, 217);
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom:0.5em ;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .question{
+    background-color: whitesmoke;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom:0.5em ;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
