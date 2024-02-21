@@ -19,7 +19,7 @@ git clone https://github.com/fleothaud/flreactivation-docker.git
 cd flreactivation-docker
 ```
 > [!TIP]
->personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env avec la commande `micro .env`:
+> Personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env avec la commande `micro .env`:
 
 ```
 MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
@@ -51,7 +51,7 @@ cd flreactivation-docker
 
 ```
 > [!TIP]
->personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env :
+> Personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env :
 
 ```
 MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
@@ -80,8 +80,8 @@ git clone https://github.com/fleothaud/flreactivation-docker.git
 cd flreactivation-docker
 
 ```
-> [!TIP]
->personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env :
+>[!TIP]
+>Personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env :
 
 ```
 MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
