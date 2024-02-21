@@ -28,8 +28,13 @@ MYSQL_DB_USER=fladmin
 MYSQL_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
 ```
 
-docker-compose up -d
+Une fois les modification faites `ctrl+Q` pour quitter et `y` pour sauvegarder les modifications
 
+Démarrer ensuite le conteneur
+
+```
+docker-compose up -d
+```
 
 Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
 
@@ -44,8 +49,23 @@ git clone https://github.com/fleothaud/flreactivation-docker.git
 
 cd flreactivation-docker
 
+```
+> [!TIP]
+>personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env
+
+```
+MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
+MYSQL_DB_NAME=flreactivation
+MYSQL_DB_USER=fladmin
+MYSQL_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
+```
+
+Une fois les modification enregistrées démarrer le conteneur :
+
+```
 docker-compose up -d
 ```
+
 
 Rendez-vous à l'adresse :  http://adresse_ip_serveur
 
@@ -59,6 +79,20 @@ git clone https://github.com/fleothaud/flreactivation-docker.git
 
 cd flreactivation-docker
 
+```
+> [!TIP]
+>personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env
+
+```
+MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
+MYSQL_DB_NAME=flreactivation
+MYSQL_DB_USER=fladmin
+MYSQL_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
+```
+
+Une fois les modification enregistrées démarrer le conteneur :
+
+```
 docker-compose up -d
 ```
 
