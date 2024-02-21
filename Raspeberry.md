@@ -22,10 +22,8 @@ Suivez les instructions d'installation fournies par l'outil. Voici quelques capt
 
 ![Étape 5](https://github.com/fleothaud/flreactivation/assets/16253157/e0fdcde4-e93a-4dfc-9287-34570162059c)
 
-``` WARNING
-test
-```
 
+[!IMPORTANT]  
 **Activer SSH :** Pour permettre l'accès SSH au Raspberry Pi, créez un fichier vide nommé `ssh` à la racine de la carte SD.
 
 ### Configuration initiale
