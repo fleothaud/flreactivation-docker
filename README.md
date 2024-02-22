@@ -42,7 +42,7 @@ Toutes les opérations suivante se font depuis une fenetre de commande en mode a
 
 * `ssh fladmin@flreactivation` ou `ssh adminUser@adresse_ip_serveur`
 
-* 'sudo su'
+* `sudo su`
 
 #### Windows
 
