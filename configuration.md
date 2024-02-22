@@ -6,22 +6,31 @@ Par défaut les identifiants administrateur sont :
 - login : admin
 - mot de passe : admin
 
-Pour modifier les identifiants administrateurs, utiliser **phpMyAdmin** : http://flreactivation.local:8080 ou http://adresse_ip_serveur:8080
+Pour modifier les identifiants administrateurs, utiliser **phpMyAdmin** 
+
+### phpMyAdmin
+
+`http://flreactivation.local:8080` ou `http://adresse_ip_serveur:8080`
 
 >[!TIP]
 > Utiliser les identifiants de connexion configurés dans `.env`
+
+![2024-02-22_13h59_57](https://github.com/fleothaud/flreactivation-docker/assets/16253157/2c94572d-6252-4e18-b8ed-3ecb04b98265)
+
 
 >**Identifiants de connection par défaut :**
 >login : `fladmin`
 >password: `fladminPassword`
 
-Modifier le mot de passe de l'utilisateur **admin** enregistré dans la table **flr_users**
 
-![2024-02-19_16h38_16](https://github.com/fleothaud/flreactivation/assets/16253157/3354ca42-9198-4279-bdaa-7e13a3f957dd)
+### Modifier le mot de passe de l'utilisateur **admin** enregistré dans la table **flr_users**
+
+![2024-02-22_14h00_58](https://github.com/fleothaud/flreactivation-docker/assets/16253157/43dcacb6-a0ca-4c7f-8885-365f515d823a)
+
 
 ## Paramétrage
 
-http://flreactivation.local/flreactivation   ou  http://adresse_ip_raspeberry/flreactivation
+`http://flreactivation.local`   ou  `http://adresse_ip_raspeberry`
 
 ![2024-02-19_19h05_28](https://github.com/fleothaud/flreactivation/assets/16253157/ffb33080-3de7-401b-a566-3b616eb9f539)
 
