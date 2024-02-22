@@ -13,7 +13,7 @@ FLReactivation-Docker est une solution containerisée de FLReactivation, intégr
 `ssh fladmin@flreactivation` ou `ssh fladmin@adresse_ip_serveur`
 
 > [!TIP]
-> **Raspeberry PI**
+> **Raspeberry PI :** 
 > Utiliser les informations d'authentification configurées à [l'installation du Raspeberry PI](Raspeberry.md)
 
 
@@ -95,71 +95,11 @@ docker-compose up -d
 ```
 
 Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
+pour continuer la [configuration](configuration.md)
 
-[Configuration](configuration.md)
 
-## Linux
 
-```
-apt update -y
-apt full-upgrade -y
-apt install docker docker-compose micro -y
 
-git clone https://github.com/fleothaud/flreactivation-docker.git
-
-cd flreactivation-docker
-
-```
-> [!TIP]
-> Personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env :
-
-```
-MARIADB_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
-MARIADB_DB_NAME=flreactivation
-MARIADB_DB_USER=fladmin
-MARIADB_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
-```
-
-Une fois les modification enregistrées démarrer le conteneur :
-
-```
-docker-compose up -d
-```
-
-Rendez-vous à l'adresse :  http://adresse_ip_serveur
-
-[Configuration](configuration.md)
-
-### Windows / Mac
-1. Installer Git : https://git-scm.com/downloads
-2. Installer docker desktop : https://www.docker.com/products/docker-desktop/
-3. Ouvrir une fenetre de commande dans un repertoire qui contiendra l'application
-
-```
-git clone https://github.com/fleothaud/flreactivation-docker.git
-
-cd flreactivation-docker
-
-```
->[!TIP]
->Personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env :
-
-```
-MARIADB_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
-MARIADB_DB_NAME=flreactivation
-MARIADB_DB_USER=fladmin
-MARIADB_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
-```
-
-Une fois les modification enregistrées démarrer le conteneur :
-
-```
-docker-compose up -d
-```
-
-Rendez-vous à l'adresse : http://adresse_ip_serveur 
-
-[Configuration](configuration.md)
 
 
 
