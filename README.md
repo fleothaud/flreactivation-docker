@@ -8,7 +8,7 @@ FLReactivation-Docker est une solution containerisée de FLReactivation, intégr
 
 * Ouvrir une fenetre de commande sur la machine hôte :
 
-`ssh fladmin@flreactivation` ou `ssh fladmin@adresse_ip_serveur`
+`ssh fladmin@flreactivation` ou `ssh adminUser@adresse_ip_serveur`
 
 > [!TIP]
 > **Raspeberry PI :** 
@@ -40,7 +40,7 @@ Toutes les opérations suivante se font depuis une fenetre de commande en mode a
 
 #### Raspeberry/Linux :
 
-* `ssh fladmin@flreactivation` ou `ssh fladmin@adresse_ip_serveur`
+* `ssh fladmin@flreactivation` ou `ssh adminUser@adresse_ip_serveur`
 
 * 'sudo su'
 
