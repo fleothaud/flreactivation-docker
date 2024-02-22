@@ -73,8 +73,9 @@ cd flreactivation-docker
 > Personnalisez les mots de passe d'accés mysql (base de données) en éditant le fichier .env
 
 > [!TIP]
-> Raspeberry/linux :  `micro .env` ou `nano.env`:
-> Windows/Mac: Utiliser n'importe quel éditeur de texte
+> **Raspeberry/linux :**  `micro .env` ou `nano.env`:
+> 
+> **Windows/Mac :** Utiliser n'importe quel éditeur de texte
 
 ```
 MARIADB_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
