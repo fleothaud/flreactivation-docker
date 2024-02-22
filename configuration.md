@@ -10,6 +10,10 @@ Pour modifier les identifiants administrateurs, utiliser **phpMyAdmin**
 
 ### phpMyAdmin
 
+phpMyAdmin permet d'administrer les bases de donnée utilisées par FLReactivation (sauvegarde, restauration, modification ...)
+
+#### Adresse de connexion port 8080
+
 `http://flreactivation.local:8080` ou `http://adresse_ip_serveur:8080`
 
 >[!TIP]
