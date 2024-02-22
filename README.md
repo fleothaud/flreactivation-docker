@@ -12,7 +12,8 @@ FLReactivation-Docker est une solution containerisée de FLReactivation, intégr
 
 `ssh fladmin@flreactivation` ou `ssh fladmin@adresse_ip_serveur`
 
-> [!TIP] Raspeberry PI
+> [!TIP]
+> **Raspeberry PI**
 > Utiliser les informations d'authentification configurées à [l'installation du Raspeberry PI](Raspeberry.md)
 
 
