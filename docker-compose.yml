@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   php:
-    image: fleothaud/fl-php-pdo:7.4-fpm-alpine
+    image: fleothaud/fl-php-pdo:fpm-alpine3.18
     volumes:
       - ./www:/var/www/html
     environment:
@@ -42,7 +42,7 @@ services:
       - backend
 
   phpmyadmin:
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin
     environment:
       PMA_HOST: mariadb
       MYSQL_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
