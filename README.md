@@ -86,11 +86,17 @@ MARIADB_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion
 
 Une fois les modification faites Quitter et Sauvegarder les modifications
 
-Construsez ensuite le conteneur
+Construisez ensuite le conteneur
 
 ```
 docker-compose up -d
 ```
+
+>[!TIP]
+>`docker-compose down` permet d'arreter le docker
+>
+>`docker-compose start` permet de démarrer le docker déjà construit
+
 
 Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
 pour continuer la [configuration](configuration.md)
