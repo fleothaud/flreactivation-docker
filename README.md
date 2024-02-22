@@ -40,26 +40,25 @@ sudo apt install docker docker-compose micro git -y
 
 Toutes les opérations suivante se font depuis une fenetre de commande en mode administrateur ou Super Utilisateur
 
-**Raspeberry/Linux :**
+##### Raspeberry/Linux :
 
 * `ssh fladmin@flreactivation` ou `ssh fladmin@adresse_ip_serveur`
 
 * 'sudo su'
 
-**Windows**
+##### Windows
 
 ![479205_479217_common_14637_03](https://github.com/fleothaud/flreactivation-docker/assets/16253157/642e5a2a-ab6f-4d0e-a272-369eb4515cae)
 
 
-**MAC :**
+##### MAC :
 
 * Cliquez sur l’icône Launchpad  dans le Dock, saisissez Terminal dans le champ de recherche, puis cliquez sur Terminal.
 
 * Dans le Finder , ouvrez le dossier /Applications/Utilitaires, puis cliquez deux fois sur Terminal.
 
 
-### clonage du repo Github
-
+### Clonage du Repo Github
 
 ``` bash
 git clone https://github.com/fleothaud/flreactivation-docker.git
