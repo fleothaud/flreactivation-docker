@@ -93,9 +93,9 @@ docker-compose up -d
 ```
 
 >[!TIP]
->`docker-compose down` permet d'arreter le docker
+>`docker-compose down` permet d'arrêter le docker
 >
->`docker-compose start` permet de démarrer le docker déjà construit
+>`docker-compose start` permet de démarrer le docker déjà construit (executer `docker-compose up -d` pour les mises à jour)
 
 
 Rendez-vous à l'adresse : http://flreactivation.local ou http://adresse_ip_serveur
