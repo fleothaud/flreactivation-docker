@@ -36,7 +36,7 @@ sudo apt install docker docker-compose micro git -y
 
 ### Invite de commande
 
-Toutes les opérations suivante se font depuis une fenetre de commande en mode administrateur ou Super Utilisateur
+Toutes les opérations suivantes se font depuis une fenetre de commande en mode administrateur ou Super Utilisateur
 
 #### Raspeberry/Linux :
 
