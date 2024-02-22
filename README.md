@@ -43,10 +43,10 @@ cd flreactivation-docker
 > Windows/Mac: Utiliser notepad par exemple
 
 ```
-MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
-MYSQL_DB_NAME=flreactivation
-MYSQL_DB_USER=fladmin
-MYSQL_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
+MARIADB_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
+MARIADB_DB_NAME=flreactivation
+MARIADB_DB_USER=fladmin
+MARIADB_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
 ```
 
 Une fois les modification faites `ctrl+Q` pour quitter et `y` pour sauvegarder les modifications
@@ -77,10 +77,10 @@ cd flreactivation-docker
 > Personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env :
 
 ```
-MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
-MYSQL_DB_NAME=flreactivation
-MYSQL_DB_USER=fladmin
-MYSQL_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
+MARIADB_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
+MARIADB_DB_NAME=flreactivation
+MARIADB_DB_USER=fladmin
+MARIADB_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
 ```
 
 Une fois les modification enregistrées démarrer le conteneur :
@@ -108,10 +108,10 @@ cd flreactivation-docker
 >Personnaliser les mots de passe d'accés mysql (base de données) en éditant le fichier .env :
 
 ```
-MYSQL_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
-MYSQL_DB_NAME=flreactivation
-MYSQL_DB_USER=fladmin
-MYSQL_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
+MARIADB_ROOT_PASSWORD=rootPassword # Personnaliser le mot de passe accès root
+MARIADB_DB_NAME=flreactivation
+MARIADB_DB_USER=fladmin
+MARIADB_DB_PASSWORD=fladminPassword # Personnaliser le mot de passe de connexion pour base flreactivation
 ```
 
 Une fois les modification enregistrées démarrer le conteneur :
