@@ -2,11 +2,9 @@
 
 FLReactivation-Docker est une solution containerisée de FLReactivation, intégrant directement PHP, MySQL et phpMyAdmin. Conçue pour une déploiabilité aisée sur diverses plateformes grâce à Docker, elle permet une mise en œuvre rapide de flreactivation.
 
-## Installation sur Raspberry Pi ([Installation recommandée](Raspeberry.md))
+## Installation de l'environnement Docker
 
-### Installation de l'environnement Docker
-
-#### Raspeberry / Linux : 
+### Raspeberry / Linux : 
 
 * Ouvrir une fenetre de commande sur la machine hôte :
 
@@ -17,41 +15,41 @@ FLReactivation-Docker est une solution containerisée de FLReactivation, intégr
 > Utiliser les informations d'authentification configurées à [l'installation du Raspeberry PI](Raspeberry.md)
 
 
-##### Mises à jour
+#### Mises à jour
 
 ``` bash
 sudo apt update -y
 sudo apt full-upgrade -y
 ```
 
-##### Installation de l'environnement
+#### Installation de l'environnement
 ``` bash
 sudo apt install docker docker-compose micro git -y
 ```
 
-#### Windows / Mac : 
+### Windows / Mac : 
 1. Installer Git : https://git-scm.com/downloads
 2. Installer et executer docker desktop : https://www.docker.com/products/docker-desktop/
 
 
-### Clonage FLReactivation-docker et installation
+## Clonage FLReactivation-docker et installation
 
-#### Invite de commande
+### Invite de commande
 
 Toutes les opérations suivante se font depuis une fenetre de commande en mode administrateur ou Super Utilisateur
 
-##### Raspeberry/Linux :
+#### Raspeberry/Linux :
 
 * `ssh fladmin@flreactivation` ou `ssh fladmin@adresse_ip_serveur`
 
 * 'sudo su'
 
-##### Windows
+#### Windows
 
 ![479205_479217_common_14637_03](https://github.com/fleothaud/flreactivation-docker/assets/16253157/642e5a2a-ab6f-4d0e-a272-369eb4515cae)
 
 
-##### MAC :
+#### MAC :
 
 * Cliquez sur l’icône Launchpad  dans le Dock, saisissez Terminal dans le champ de recherche, puis cliquez sur Terminal.
 
